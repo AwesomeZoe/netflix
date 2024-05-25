@@ -10,7 +10,7 @@
 :root {
     --main-color: black;
     --text-color: white;
-    --gray: rgb(44, 44, 44);
+    --gray: #2d2d2d;
 }
 
 
@@ -141,6 +141,23 @@ h1 {
     padding: 0 6px 0 0;
 }
 
+.sect1-img-flex {
+    position: relative;
+}
+
+.sect1-img-flex video {
+    position: absolute;
+    /* z-index: 1; */
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 
@@ -254,6 +271,7 @@ h1 {
 
 
 
+
 /* sect5 */
 
 
@@ -272,12 +290,17 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0;
 }
 
 .sect5-flex p {
     background-color: var(--gray);
     padding: 1.5rem;
-    width: 75%;
+    /* width: 100%; */
+}
+
+.sect5-flex p img {
+    width: 6%;
 }
 
 .sect5a {
@@ -304,6 +327,241 @@ h1 {
     font-size: 25px;
     font-weight: 600;
     border-radius: 5px;
+}
+
+
+/* drop down1 */
+
+.drop-down1 {
+    width: 80%;
+    position: relative;
+}
+
+.drop-down1:hover {
+    margin-bottom: 15f rem;
+}
+
+.drop-down1 .spec1 {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drop-down1 .spec1:hover img {
+    transform: rotate(45deg);
+}
+
+.drop-down1-content {
+    position: absolute;
+    top: 88%;
+    z-index: 600;
+    display: none;
+}
+
+.drop-down1:hover .drop-down1-content {
+    display: block;
+}
+
+.drop-down1 .spec1:hover {
+    background-color: #404040;
+}
+
+
+
+/* drop down2 */
+
+.drop-down2 {
+    width: 80%;
+    position: relative;
+}
+
+.drop-down2:hover {
+    margin-bottom: 17rem;
+}
+
+.drop-down2 .spec1 {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drop-down2 .spec1:hover img {
+    transform: rotate(45deg);
+}
+
+.drop-down2-content {
+    position: absolute;
+    top: 88%;
+    z-index: 600;
+    display: none;
+}
+
+.drop-down2:hover .drop-down1-content {
+    display: block;
+}
+
+.drop-down2 .spec1:hover {
+    background-color: #404040;
+}
+
+
+/* drop down3 */
+
+.drop-down3 {
+    width: 80%;
+    position: relative;
+}
+
+.drop-down3:hover {
+    margin-bottom: 19rem;
+}
+
+.drop-down3 .spec1 {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drop-down3 .spec1:hover img {
+    transform: rotate(45deg);
+}
+
+.drop-down3-content {
+    position: absolute;
+    top: 90%;
+    z-index: 600;
+    display: none;
+}
+
+.drop-down3:hover .drop-down3-content {
+    display: block;
+}
+
+.drop-down3 .spec1:hover {
+    background-color: #404040;
+}
+
+
+/* drop down4 */
+
+.drop-down4 {
+    width: 80%;
+    position: relative;
+}
+
+.drop-down4:hover {
+    margin-bottom: 6rem;
+}
+
+.drop-down4 .spec1 {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drop-down4 .spec1:hover img {
+    transform: rotate(45deg);
+}
+
+.drop-down4-content {
+    position: absolute;
+    top: 88%;
+    z-index: 600;
+    display: none;
+}
+
+.drop-down4:hover .drop-down4-content {
+    display: block;
+}
+
+.drop-down4 .spec1:hover {
+    background-color: #404040;
+}
+
+
+/* drop down5 */
+
+.drop-down5 {
+    width: 80%;
+    position: relative;
+}
+
+.drop-down5:hover {
+    margin-bottom: 17rem;
+}
+
+.drop-down5 .spec1 {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drop-down5 .spec1:hover img {
+    transform: rotate(45deg);
+}
+
+.drop-down5-content {
+    position: absolute;
+    top: 88%;
+    z-index: 600;
+    display: none;
+}
+
+.drop-down5:hover .drop-down1-content {
+    display: block;
+}
+
+.drop-down5 .spec1:hover {
+    background-color: #404040;
+}
+
+
+/* drop down6 */
+
+.drop-down6 {
+    width: 80%;
+    position: relative;
+}
+
+.drop-down6:hover {
+    margin-bottom: 17rem;
+}
+
+.drop-down6 .spec1 {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.drop-down6 .spec1:hover img {
+    transform: rotate(45deg);
+}
+
+.drop-down6-content {
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    display: none;
+}
+
+.drop-down6:hover .drop-down1-content {
+    display: block;
+}
+
+.drop-down6 .spec1:hover {
+    background-color: #404040;
 }
 
 
