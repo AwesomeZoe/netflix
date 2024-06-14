@@ -378,7 +378,7 @@ h1 {
 }
 
 .drop-down2:hover {
-    margin-bottom: 17rem;
+    margin-bottom: 7rem;
 }
 
 .drop-down2 .spec1 {
@@ -396,12 +396,12 @@ h1 {
 .drop-down2-content {
     position: absolute;
     top: 88%;
-    z-index: 600;
     display: none;
 }
 
-.drop-down2:hover .drop-down1-content {
+.drop-down2:hover .drop-down2-content {
     display: block;
+    z-index: 1000;
 }
 
 .drop-down2 .spec1:hover {
@@ -495,7 +495,7 @@ h1 {
 }
 
 .drop-down5:hover {
-    margin-bottom: 17rem;
+    margin-bottom: 7rem;
 }
 
 .drop-down5 .spec1 {
@@ -512,12 +512,12 @@ h1 {
 
 .drop-down5-content {
     position: absolute;
-    top: 88%;
+    top: 90%;
     z-index: 600;
     display: none;
 }
 
-.drop-down5:hover .drop-down1-content {
+.drop-down5:hover .drop-down5-content {
     display: block;
 }
 
@@ -551,12 +551,12 @@ h1 {
 
 .drop-down6-content {
     position: absolute;
-    top: 50%;
+    top: 90%;
     z-index: 1000;
     display: none;
 }
 
-.drop-down6:hover .drop-down1-content {
+.drop-down6:hover .drop-down6-content {
     display: block;
 }
 
